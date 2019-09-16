@@ -7,4 +7,4 @@ title: Workshop on Bioinformatics
 
 [Bioinformatics Workshop][1]
 
-[1]: Bioinformatics_Workshop_ImmTech
+[1]: https://immuntech.github.io/Bioinformatics_Workshop_ImmTech/
