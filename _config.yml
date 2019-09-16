@@ -1,32 +1,8 @@
-title: "Bioinformatics Workshop at Immunotechnology"
-baseurl: /Bioinformatics_Workshop_ImmTech
-
-# where things are
-# where things are
-layouts_dir: ./workshop-common/layouts
-includes_dir: ./workshop-common/includes
-sass:
-  sass_dir: ./workshop-common/sass
-
+title: "Immunotechnology"
+description: ImmunoTechnology course Webpage
+theme: jekyll-theme-leap-day
 plugins:
-  - jemoji
-
-defaults:
-  - values:
-      logosnav: true
-
-menu:
-  - title: Overview
-    url:
-  - title: Schedule
-    url: schedule
-  - title: Syllabus
-    url: syllabus
-  - title: Reading materials
-    url: reading_materials
-  - title: Software
-    url: software
-  - title: Practical information
-    url: practical
-  - title: Contact
-    url: contact
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
